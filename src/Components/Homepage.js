@@ -36,7 +36,7 @@ function Homepage() {
             <header>
                 <div className="logo">
                     <h1>
-                        {rendered === 'popular' ? 'Popular Anime' : 
+                        {rendered === 'popular' ? 'Anime List' : 
                         rendered === 'airing' ? 'Airing Anime' : 'Upcoming Anime'}
                     </h1>
                 </div>
@@ -72,7 +72,7 @@ function Homepage() {
 }
 
 const HomepageStyled = styled.div`
-    background-color: #EDEDED;
+    background-color: #BD2020;
     header{
         padding: 2rem 5rem;
         width: 60%;
